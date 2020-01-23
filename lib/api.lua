@@ -107,7 +107,7 @@ API = function(token)
 		end
 	end
 
-	obj.onCloudMapTarget = function(sender, x, y) end
+	obj.onMapTarget = function(sender, x, y) end
 
 	obj.onPlayerMarker = function(sender, playerId, x, y, z, color) end
 
